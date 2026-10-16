@@ -1,0 +1,55 @@
+Python cache files
+
+pycache/
+*.py[cod]
+*$py.class
+
+Virtual environments
+
+venv/
+.venv/
+env/
+
+Local application data
+
+data/
+reports.json
+evidence.json
+
+Private evidence and screenshots
+
+private_evidence/
+screenshots/
+*.private
+
+Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+secrets.json
+credentials.json
+*.pem
+*.key
+
+Logs
+
+*.log
+logs/
+
+Temporary files
+
+*.tmp
+*.temp
+*.bak
+
+IDE and editor files
+
+.vscode/
+.idea/
+
+Operating system files
+
+.DS_Store
+Thumbs.db
+desktop.ini
